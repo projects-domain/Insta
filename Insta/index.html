@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+
+            <div class="logo-box">
+                <img class="insta-logo" src="836611.png" alt="" class="img-box">
+            </div>
+
+            <div class="nav-btns">
+                <div class="btn1"><a href=""><img src="house.png" alt=""></a></div>
+                <div class="btn2"><a href=""><img src="search.png" alt=""></a></div>
+                <div class="btn3"><a href=""><img src="tv.png" alt=""></a></div>
+                <div class="btn4"><a href=""><img src="heart.png" alt=""></a></div>
+            </div>
+
+            <div class="top-right">
+                <div class="btn5"><a href=""><img src="send.png" alt=""></a></div>
+                <div><a href=""><img class="icon-btn1"
+                            src="https://imgs.search.brave.com/-NlnxahyAGuqlLX-6YOWh0oRnGUNgJUJjsbc9R1cv2c/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi95b3Vu/Zy1nb29kLWxvb2tp/bmctZ3V5LXdoaXRl/LXQtc2hpcnQtc3Rh/bmRzLWFnYWluc3Qt/cGFsZS1waW5rLWJh/Y2tncm91bmQtY2xv/c2VkLWV5ZXMtc21p/bGVzLWNyb3NzZWQt/aGlzLWZpbmdlcnMt/MjcyNDE2MzUxLmpw/Zw"
+                            alt=""></a></div>
+            </div>
+
+        </div>
+
+        <div class="main-2">
+            <div class="left">
+                <div class="profile-box">
+                    <img src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box-2">
+                </div>
+                <div class="content">
+                    <div class="posts-stats">
+                        <div class="posts">
+                            <div class="number">518</div>
+                            <div class="text-post">posts</div>
+                        </div>
+                        <div class="posts">
+                            <div class="number">220k</div>
+                            <div class="text-post">followers</div>
+                        </div>
+                        <div class="posts">
+                            <div class="number">197</div>
+                            <div class="text-post">following</div>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <button class="follow-btn" onclick="toggleFollow(this)">Follow</button>
+                    </div>
+
+                    <div class="left-text">
+                        <p><b>Jack Harding <br></b></p>
+                        <p>Travel, Adventure & Lifestyle <br>Photographer <br>Sony Imaging Ambassador <br>Let's Work:
+                            <br>hello@jackharding.photo <br>
+                        </p>
+                        <p><a href="jackharding.photo/brandwork">jackharding.photo/brandwork</a></p>
+                    </div>
+                    <div class="icons">
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                        <div class="logo-icon"><img class="logo-image"
+                                src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                                alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+                <div class="photo-box"><img
+                        src="https://imgs.search.brave.com/xqPrfr8e95-xua-w2jefhCcV1E7h5dCnpJx6COnH-MA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvc2Ix/MDA2OTcxOWMtMDAx/L3Bob3RvL3RhYmJ5/LWNhdC1zdGFuZGlu/Zy1vbi1oaW5kLWxl/Z3Mtd2l0aC1zdHJl/dGNoaW5nLW91dC1w/YXcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWZLZk84ODhJ/NnVOemJaUEl6dWpB/NnFSYjEyVjViZEFB/OWZxX0lzOW92dnc9"
+                        alt="" class="img-box"></div>
+            </div>
+
+            <div class="far-right">
+                <div class="invisible"><img src="" alt=""></div>
+                <div class="far-right-btns">
+                    <a href=""><img src="house.png" alt=""></a>
+                    <a href=""><img src="house.png" alt=""></a>
+                    <a href=""><img src="house.png" alt=""></a>
+                    <a href=""><img src="house.png" alt=""></a>
+                </div>
+                <div class="btn10"><a href=""><img src="tv.png" alt=""></a></div>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
